@@ -1,0 +1,30 @@
+body {
+  font-family: roboto;
+  background-color: #5f6779;
+  padding: 20px;
+}
+h1,
+h2,
+h3,
+p {
+  color: #5f6779;
+  text-align: center;
+}
+h2 {
+  font-size: 100px;
+  margin: 0;
+}
+input {
+  background-color: #f8f9fa;
+}
+.card {
+  background-color: #f8f9fa;
+  margin: 0 auto;
+  max-width: 700px;
+  margin-top: -20px;
+}
+
+.input-group {
+  max-width: 700px;
+  margin: 0 auto;
+}
