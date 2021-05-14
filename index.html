@@ -16,52 +16,54 @@
   </head>
   <body>
     <div class="container">
-      <form id="search-form">
-        <div class="input-group mb-3">
-          <input
-            type="text"
-            class="form-control"
-            placeholder="Search city..."
-            aria-label="Username"
-            id="city-input"
-          />
-          <button class="input-group-text" type="submit">🔍</button>
+      <div class="weather-app-wrapper">
+        <form id="search-form">
+          <div class="input-group mb-3">
+            <input
+              type="text"
+              class="form-control"
+              placeholder="Search city..."
+              aria-label="Username"
+              id="city-input"
+            />
+            <button class="input-group-text" type="submit">🔍</button>
+          </div>
+        </form>
+        <br />
+        <div class="card">
+          <div class="card-body">
+            <h1>
+              <span id="city">London, UK</span>
+              <br />
+              <span id="temperature">23</span>°
+            </h1>
+            <h2>☀</h2>
+            <h3>
+              <span id="description">Partly cold</span>
+              <br id="time" />
+              <span id="date">Sun 22:08 pm</span>
+            </h3>
+            <p>
+              <span id="humidity">Humidity:77</span>%
+              <span id="wind">Wind: 12 </span>mph
+            </p>
+            <button
+              class="input-group-text"
+              type="submit"
+              id="current-location-button"
+            >
+              Current
+            </button>
+          </div>
         </div>
-      </form>
-      <br />
-      <div class="card">
-        <div class="card-body">
-          <h1>
-            <span id="city">London, UK</span>
-            <br />
-            <span id="temperature">23</span>°
-          </h1>
-          <h2>☀</h2>
-          <h3>
-            <span id="description">Partly cold</span>
-            <br id="time" />
-            <span id="date">Sun 22:08 pm</span>
-          </h3>
-          <p>
-            <span id="humidity">Humidity:77</span>%
-            <span id="wind">Wind: 12 </span>mph
-          </p>
-          <button
-            class="input-group-text"
-            type="submit"
-            id="current-location-button"
-          >
-            Current
-          </button>
-          <small>
-            <a
-              href="https://github.com/Anuoluwapo245/my-project-shecodes"
-              target="blank"
-              >Open-source Code
-            </a>
-            ,by Anuoluwapo Ikutiyinu
-          </small>
-        </div>
+        <small>
+          <a
+            href="https://github.com/Anuoluwapo245/my-project-shecodes"
+            target="blank"
+            >Open-source Code
+          </a>
+          ,by Anuoluwapo Ikutiyinu
+        </small>
       </div>
     </div>
     <script src="app.js"></script>

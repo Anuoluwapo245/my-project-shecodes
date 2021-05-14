@@ -17,6 +17,21 @@ h2 {
 input {
   background-color: #f8f9fa;
 }
+
+a {
+  text-decoration: none;
+  color: #f8f9fa;
+  cursor: pointer;
+}
+
+small {
+  font-size: 80%;
+  font-weight: 400;
+  max-width: 200px;
+
+  padding: 0 0 20px;
+}
+
 .card {
   background-color: #f8f9fa;
   margin: 0 auto;
@@ -29,17 +44,10 @@ input {
   margin: 0 auto;
 }
 
-a {
-  text-decoration: none;
-  color: #5f6779;
-  cursor: pointer;
+.input-group-text {
+  margin: 0 auto;
 }
 
-small {
-  font-size: 80%;
-  font-weight: 400;
-  max-width: 200px;
-  line-height: start;
-  margin: 0 210px 20px;
-  padding: 0 0 20px;
+.weather-app-wrapper {
+  max-width: 700px;
 }
