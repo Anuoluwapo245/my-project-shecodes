@@ -51,3 +51,7 @@ small {
 .weather-app-wrapper {
   max-width: 700px;
 }
+
+.weather-forecast-temperstures-min {
+  opacity: 0.2;
+}
